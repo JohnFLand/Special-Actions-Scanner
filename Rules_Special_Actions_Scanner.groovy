@@ -83,7 +83,7 @@ definition(
     oauth:          true,
     iconUrl:   '',
     iconX2Url: '',
-    importUrl: ""
+    importUrl: "https://raw.githubusercontent.com/JohnFLand/Special-Actions-Scanner/refs/heads/main/Rules_Special_Actions_Scanner.groovy"
 )
 
 preferences {
