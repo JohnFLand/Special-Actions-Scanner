@@ -1,5 +1,5 @@
 /*
- *  RM/BC Special Actions Scanner
+ *  Rules Special Actions Scanner
  *
  *  Scans Rule Machine and Button Controller child apps, reports each rule's
  *  App Type and Last Run time, and checks each rule's internal configuration
@@ -73,8 +73,8 @@ import groovy.transform.CompileStatic
 @Field static Map       configureInflight       = [:]    // ruleId -> [startedMs, name], for dropped-response watchdog
 
 definition(
-    name:        "RM-BC Special Actions Scanner v. 1.03",
-    namespace:   "johnland",
+    name:        "Rules Special Actions Scanner v. 1.03",
+    namespace:   "John Land",
     author:      "John Land & AI",
     description: "Scans RM/BC rules and reports selected special-action keywords found in rule configuration JSON.",
     category:    "Utility",
