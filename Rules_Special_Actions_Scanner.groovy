@@ -73,17 +73,17 @@ import groovy.transform.CompileStatic
 @Field static Map       configureInflight       = [:]    // ruleId -> [startedMs, name], for dropped-response watchdog
 
 definition(
-    name:        "Rules Special Actions Scanner v. 1.03",
-    namespace:   "John Land",
-    author:      "John Land & AI",
-    description: "Scans RM/BC rules and reports selected special-action keywords found in rule configuration JSON.",
-    category:    "Utility",
+    name:           "Rules Special Actions Scanner 1.03",
+    namespace:      "John Land",
+    author:         "John Land & AI",
+    description:    "Scans RM/BC rules and reports selected special-action keywords found in rule configuration JSON.",
+    category:       "Utility",
     singleInstance: false,
     installOnOpen:  true,
     oauth:          true,
-    iconUrl:   '',
-    iconX2Url: '',
-    importUrl: "https://raw.githubusercontent.com/JohnFLand/Special-Actions-Scanner/refs/heads/main/Rules_Special_Actions_Scanner.groovy"
+    iconUrl:        '',
+    iconX2Url:      '',
+    importUrl:      "https://raw.githubusercontent.com/JohnFLand/Special-Actions-Scanner/refs/heads/main/Rules_Special_Actions_Scanner.groovy"
 )
 
 preferences {
