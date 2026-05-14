@@ -1,4 +1,4 @@
-# RM/BC Special Actions Scanner
+# RM/BC Rules Special Actions Scanner
 
 A [Hubitat Elevation](https://hubitat.com/) app for Rule Machine (RM) and Button Controller (BC) rules.
 
